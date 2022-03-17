@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner {
+    background-color: aliceblue;
+}
+header, footer {
+    background-color: blue;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-area {
+    display: flex;
+    height: 58vh;
+    margin: 1vh 0;
+}
+aside {
+    width: 20%;
+    background-color: chartreuse;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article {
+    width: 80%;
+    background-color: darkgreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+p {
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+.small_blocks {
+    width: 31%;
+    background-color: darkred;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
